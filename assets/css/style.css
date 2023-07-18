@@ -23,6 +23,9 @@ ul{
 ul li{
     display: inline-block;
 }
+.col-6{
+    width: 50%;
+}
 /* Header section start */
 header{
     background-color: white;
@@ -78,5 +81,58 @@ header{
     width: 20px;
     margin-left: 10px;
 }
-
 /* Header section end */
+/* banner section start */
+.banner-left h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.color-gradient{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#DA4CC4, #A654E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background: -webkit-linear-gradient(#DA4CC4, #A654E0);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.banner-left ul{
+    margin-top: 30px;
+}
+.banner-left ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+.banner-left ul li i{
+    margin-right: 10px;
+    color: #DA4CC4;
+}
+.btn-section{
+    margin-top: 30px;
+}
+.btn{
+    background-color: #FF42A5;
+    padding: 15px 35px;
+    margin-right: 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+}
+.bg-sky{
+    background-color: #4EC5F7;
+}
+.banner-right img{
+    width: 100%;
+}
+.banner{
+    background-image: url("../images/section-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+/* banner section end */
