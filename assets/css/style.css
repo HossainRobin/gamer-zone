@@ -136,3 +136,47 @@ header{
     background-position: left center;
 }
 /* banner section end */
+/* gamer section start */
+.gamer{
+    background: #FFF9FC;
+    padding: 50px 0px;
+}
+.gamer-left{
+    width: 60%;
+}
+.gamer-right{
+    width: 40%;
+    text-align: right;
+}
+.gamer-left img{
+    width: 100%;
+}
+.gamer-right h3{
+    font-size: 40px!important;
+    background: -webkit-linear-gradient(#de60cb, #A654E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.gamer-right p{
+    line-height: 1.8;
+    color: #404040;
+    font-size: 14px;
+    margin-left: 100px;
+}
+.gamer-btn{
+    display: inline-block;
+    margin: 20px 0px;
+}
+.gamer-right h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+.gamer-right q{
+    font-size: 26px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* gamer section end */
