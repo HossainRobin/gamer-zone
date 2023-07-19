@@ -348,3 +348,42 @@ header{
     height: 700px;
 }
 /* career section end */
+/* round section start */
+.round-section{
+    padding: 80px 0px;
+    background-color: #FFF9FC;
+}
+.justify-center{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.round-box{
+    margin: 0px 10px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.round-box:hover{
+    border: 2px solid #ea26cd;
+    color: #ea26cd;
+}
+.round-box img{
+    margin-right: 10px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* round section end */
