@@ -444,9 +444,55 @@ footer{
         margin: auto;
         justify-content: center;
     }
+    header{
+        box-shadow: inherit!important;
+    }
     /* header end */
-
-
+    /* banner start */
+    .banner{
+        background-color: white;
+        margin: 50px 30px;
+    }
+    .banner .row {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .banner-right img{
+        width: 80%;
+    }
+    .banner-right{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-left{
+        padding: 50px;
+    }
+    .banner-left h3{
+        font-size: 25px;
+    }
+    .banner-left .color-gradient{
+        font-size: 40px;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .banner-left ul li{
+        font-size: 12px;
+    }
+    .btn-section{
+        display: flex;
+        flex: 1;
+    }
+    .banner .btn-section .btn{
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .banner-right img{
+        padding-top: 50px;
+    }
+    /* banner end */
 
 
 
