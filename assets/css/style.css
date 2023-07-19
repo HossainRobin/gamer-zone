@@ -267,3 +267,41 @@ header{
     display: block;
 }
 /* videos section end */
+/* angela section start */
+.angela{
+    padding: 40px 0px 100px 0px;
+}
+.angela-left{
+    text-align: right;
+    padding-right: 200px; 
+}
+.angela-left h3:first-child{
+    background: -webkit-linear-gradient(#de60cb, #A654E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.angela-left h3{
+    font-size: 40px;
+}
+.angela-left p{
+    margin-top: 30px;
+    margin-left: 100px;
+    line-height: 1.7;
+}
+.angela-right{
+    position: relative;
+}
+.rider-img{
+    width: 500px;
+}
+.angela-img{
+    position: absolute;
+    left: -10px;
+    margin-left: -100px;
+    margin-bottom: -50px;
+    bottom: 0;
+    z-index: 1;
+    width: 250px;
+}
+/* angela section end */
