@@ -556,6 +556,31 @@ footer{
         margin-left: 0px;
     }
     /* angela end */
+    /* career start */
+    .career{
+        padding: 80px 30px;
+    }
+    .career .row{
+        flex-direction: column;
+    }
+    .career-left, .career-right{
+        width: 100%;
+    }
+    .double-section{
+        flex-direction: row!important;
+    }
+    .double-section ul li{
+        font-size: 12px!important;
+    }
+    .mb-50{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .career-right img{
+        width: 100%;
+        height: auto;
+    }
+    /* career end */
 
 
 
