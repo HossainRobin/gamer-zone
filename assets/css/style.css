@@ -510,8 +510,26 @@ footer{
         margin:0px;
     }
     /* gamer end */
-
-
+    /* videos start */
+    .videos{
+        padding: 50px 30px;
+    }
+    .videos-header h3{
+        font-size: 30px!important;
+    }
+    .videos-header p{
+        font-size: 14px;
+    }
+    .videos-card .row{
+        flex-direction: column;
+    }
+    .video-card {
+        width: 100%;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /* videos end */
 
 
 
