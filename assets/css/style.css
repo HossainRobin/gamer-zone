@@ -412,3 +412,47 @@ footer{
     margin-top: 20px;
 }
 /* footer section end */
+
+/* start responsive */
+@media (max-width: 768px) {
+    /* header start */
+    header .row{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+    }
+    .col-12{
+        width: 100%!important;
+    }
+    .header-right .row{
+        display: block;
+    }
+    .header-right ul li{
+        display: block;
+        text-align: center;
+    }
+    .header-right a{
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .header-btn{
+        width: 150px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    /* header end */
+
+
+
+
+
+
+
+
+}
+
+/* end responsive */
