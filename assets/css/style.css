@@ -530,6 +530,32 @@ footer{
         text-align: center;
     }
     /* videos end */
+    /* angela start */
+    .angela{
+        padding: 0px 30px 30px 30px;
+        margin-bottom: 80px;
+    }
+    .angela .row{
+        flex-direction: column;
+    }
+    .angela-left {
+        padding-right:0px;
+        text-align: center;
+    }
+    .angela-left p {
+        margin: 30px;
+    }
+    .rider-img {
+        width: 80%;
+        float: right;
+
+    }
+    .angela-img {
+        z-index: 1;
+        width: 150px;
+        margin-left: 0px;
+    }
+    /* angela end */
 
 
 
