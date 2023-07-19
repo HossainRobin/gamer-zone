@@ -493,6 +493,23 @@ footer{
         padding-top: 50px;
     }
     /* banner end */
+    /* gamer start */
+    .gamer{
+        padding: 50px 30px;
+    }
+    .gamer .row{
+        flex-direction: column;
+    }
+    .gamer-left img{
+        width: 100%;
+    }
+    .gamer-right{
+        text-align: center;
+    }
+    .gamer-right p {
+        margin:0px;
+    }
+    /* gamer end */
 
 
 
