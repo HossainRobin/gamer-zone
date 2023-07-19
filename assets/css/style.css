@@ -581,7 +581,17 @@ footer{
         height: auto;
     }
     /* career end */
+    /* round start */
+    .round-section .row{
+        flex-direction: column;
+    }
+    .round-section .round-box{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
 
+    /* round nd */
 
 
 
